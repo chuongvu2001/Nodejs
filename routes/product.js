@@ -6,4 +6,9 @@ router.get('/products',(req,res) =>{
         mess: 'success'
     })
 })
+router.post('/products',(req,res) =>{
+    res.json({
+        mess: 'success'
+    })
+})
 module.exports = router;
